@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>This is the product details page</h1>
+
+    <div class="card" style="width: 32rem; height: 100%; padding: 2rem; background-color: pink;">
+        <img src="{{ products.image_url }}" class="card-img-top" alt="..." style="max-width: 100%; height: auto;">
+        <p>{{products.details}}</p>
+
+        <div> <a href="/products" class="btn btn-primary">Back</a>
+        </div>
+    </div>
+
+   
+</body>
+</html>
